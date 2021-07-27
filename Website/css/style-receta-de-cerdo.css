@@ -1,0 +1,21 @@
+.cerdo{
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+.titulos{
+
+    position: absolute;
+    text-align: center;
+    left: 100px;
+    margin-top: -100px;
+    color: white;
+    letter-spacing: 0;
+    text-shadow: -3px -3px 3px #0000DF, 3px -3px 3px #0000DF, -3px 3px 3px #0000DF, 3px 3px 3px #0000DF;
+    
+}
+.parrafos{
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
