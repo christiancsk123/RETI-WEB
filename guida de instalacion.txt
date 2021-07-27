@@ -1,0 +1,35 @@
+1. Descargar el xamp.php
+https://www.apachefriends.org/es/download.html
+2. Instalar como administrador de forma habitual(darle next-siguiente a todo).
+3. Abrir el programa instalado xamp
+4. Iniciar los servidores Apache y Mysql.
+5. ir a la ruta siguiente:
+C:\xampp\htdocs
+6. Dentro de la carpeta htdocs de xamp. pegar la carpeta Website del proyecto
+7. En un buscador como google chrome. Poner como ruta localhost/phpmyadmin/
+8. Dentro del interfaz de phpMyAdmin. Ir a la parte superior izquiera y hacer clic en "nueva"
+9. Crear la base de datos bajo el nombre "reti_db"
+10. Colocar como nombre a la tabla "usuariosdm".
+11. En la casilla del costado buscar la opcion "utf8_spanish_ci" y darle en "Crear".
+12. En la siguiente pantalla asignar el numero de columnas de la tabla(8).
+13. Dentro de las tablas ponerles los nombres "idUsuariosDM", "nombre", "apellidos", "correo",
+	"password", "pais", "ciudad", "edad".
+IMPORTANTE: COLOCAR EL NOMBRE DE LAS COLUMNAS, EN EL ORDEN ESTABLECIDO EN EL DOCUMENTO.
+14. Para la columna "idUsuariosDM" asignar el tipo de dato "INT" con longitud 11 - int(11)
+14.1 Asignar la columna como "idUsuariosDM" A.I (AUTO_INCREMENT)
+15. Para la columna  "nombre" asignar el tipo de dato "VARCHAR" con longitud 10 - VARCHAR(10)
+16. Para la columna "apellidos" asignar el tipo de dato "VARCHAR" con longitud 10 - VARCHAR(10)
+17. Para la columna "correo" asignar el tipo de dato "VARCHAR" con longitud 30 - VARCHAR(30)
+18. Para la columna "password" asignar el tipo de dato "VARCHAR" con longitud 150 - VARCHAR(150)
+19. Para la columna "pais" asignar el tipo de dato "VARCHAR" con longitud 10 - VARCHAR(10)
+20. Para la columna "ciudad" asignar el tipo de dato "VARCHAR" con longitud 10 - VARCHAR(10)
+21. Para la columna "nacimiento" asignar el tipo de dato "DATE"
+22. Seleccionar la opcion "Guardar/Aceptar"
+23. Una vez creada la tabla. Abrir tu navegador de preferencia.
+24. En la barra de direcciones colocar el siguiente enlace:
+localhost/Website/login.php
+25. Registrarse en el formulario de registro
+26. Verficiar en la tabla de base de datos de phpMyAdmin
+27. Una vez guardada la información del usuario en la base de datos.
+28. Iniciar sesión con la cuenta registrada
+29. Interactuar con la pagina.
